@@ -9,10 +9,41 @@
 //          System.out.println();
 //     }
 
-var samestar = Math.floor(Math.random() * 51);
 
-console.log(samestar);
 
-for(var i = 1; i <= samestar ;i++){
-  console.log('*');
+// var integer =  Math.floor(Math.random() * 51);
+//   for(var j=0;j<integer;j++){
+//     console.log('*');
+//   }
+
+
+var a = [ 2, 45, 39, 8, 21, 6, 48 ];
+// console.log(a[1]);
+// console.log(a.length);
+var arrey="";
+for(var i = 0; i < a.length ; i++){
+  for(j = 1; j <= a[i]; j++){
+      console.log("*");
+  }
+  console.log("\n");
 }
+
+
+// var n = 5;
+// var num ="";
+// for (var i = 0; i < n ;i++){
+//   num = num + "*";
+// }
+// console.log(num);
+
+
+
+//
+//
+// var samestar = Math.floor(Math.random() * 51);
+//
+// console.log(samestar);
+//
+// for(var i = 1; i <= samestar ;i++){
+//   console.log('*');
+// }
