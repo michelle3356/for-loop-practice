@@ -1,6 +1,4 @@
 // 1.題目：求N! （如:5!=1*2*3*4*5）（必須用迴圈完成
-<script type="text/javascript">
-
   function layer(num){
     for(var i=num-1;i>=1;i--){
       num = num *i;
