@@ -23,6 +23,8 @@ var a = [ 2, 45, 39, 8, 21, 6, 48 ];
 var arrey="";
 for(var i = 0; i < a.length ; i++){
   for(j = 1; j <= a[i]; j++){
+      // console.log("*");
+      arrey = arrey + "*";
       console.log("*");
   }
   console.log("\n");
