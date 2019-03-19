@@ -16,20 +16,19 @@
 //     console.log('*');
 //   }
 
-
-var a = [ 2, 45, 39, 8, 21, 6, 48 ];
+// 可以利用google網頁中的source瀏覽每一行程式碼的偵錯(step)
+var a = [ 2, 3, 7];
 // console.log(a[1]);
 // console.log(a.length);
-var arrey="";
+var star="";
 for(var i = 0; i < a.length ; i++){
-  for(j = 1; j <= a[i]; j++){
-      // console.log("*");
-      arrey = arrey + "*";
-      console.log("*");
+  for(j = 1; j <= a[i]; j++) {
+      star = star + "*";
   }
-  console.log("\n");
+  star = star + "\n";
 }
 
+console.log(star);
 
 // var n = 5;
 // var num ="";
